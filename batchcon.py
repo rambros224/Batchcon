@@ -21,6 +21,6 @@ def convert_to_ico(folder):
                 
 if __name__=="__main__":
     if len(sys.argv) !=2:
-        print("usage: convert_to_ico <folder_name>")
+        print("usage: batchcon <folder_name>")
     else:
         convert_to_ico(sys.argv[1])
